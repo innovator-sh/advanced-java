@@ -1,17 +1,17 @@
 import java.awt.*;
-import java.awt.event.*;
 
 public class gridbag_layout extends Frame {
     gridbag_layout() {
         
         setLayout(new GridBagLayout());
+
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.fill = GridBagConstraints.HORIZONTAL;
+
         Label l1 = new Label("Name: ");
         TextField t1 = new TextField(15);
         Label l2 = new Label("Comments: ");
         TextArea ta = new TextArea(3, 20);
-        
         Button b1 = new Button("Submit");
 
         gbc.gridx = 0;
@@ -43,4 +43,5 @@ public class gridbag_layout extends Frame {
         t.setVisible(true);
         t.setTitle("GridBagLayout Testing");
     }
+
 }
