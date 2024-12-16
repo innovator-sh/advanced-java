@@ -5,7 +5,7 @@ import java.awt.event.*;
 public class file_dialog extends Frame implements ActionListener {
 
     FileDialog fd1;
-    Button openBut;
+    Button openButt;
     Label l1;
     TextArea ta1;
 
@@ -13,15 +13,15 @@ public class file_dialog extends Frame implements ActionListener {
 
         fd1 = new FileDialog(this, "Select File to Open");
 
-        openBut = new Button("Open File");
-        openBut.setBackground(Color.PINK);
+        openButt = new Button("Open File");
+        openButt.setBackground(Color.PINK);
         l1 = new Label("Complete path of the selected file");
         ta1 = new TextArea(40, 20);
 
-        add(openBut, "South");
+        add(openButt, "South");
         add(ta1, "Center");
         add(l1, "North");
-        openBut.addActionListener(this);
+        openButt.addActionListener(this);
 
         setTitle("FileDialog Practice");
         setSize(525, 325);
