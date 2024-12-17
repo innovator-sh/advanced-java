@@ -5,7 +5,7 @@ public class imageicon extends JApplet {
     public void init() {
         Container co = getContentPane();
 
-        ImageIcon i = new ImageIcon("wave.png"); // Save the png file in the same directory as the class file created by this program.
+        ImageIcon i = new ImageIcon("assets/wave.png"); // Save the png file in the same directory as the class file created by this program.
         
         /* Constructor:
          * ImageIcon(String name)
