@@ -14,6 +14,12 @@ public class Jtabbedpane extends JApplet {
         tp.addTab("Login", new auth());
         tp.addTab("Language", new lang());
         tp.addTab("Location", new location());
+
+        /* Constructors:
+         * JTabbedPane()
+         * JTabbedPane(int tabPlacement)
+         * JTabbedPane(int tabPlacement, int tabLayoutPolicy)
+        */
         
         co.add(tp);
     }
