@@ -20,6 +20,13 @@ public class Jscrollpane extends JApplet {
 
         JScrollPane sp = new JScrollPane(jp, vsb, hsb);
 
+        /* Constructors:
+         * JScrollPane()
+         * JScrollPane(Component comp)
+         * JScrollPane(int vsb, int hsb)
+         * JScrollPane(Component comp, int vsb, int hsb)
+        */
+
         co.add(sp);
 
     }

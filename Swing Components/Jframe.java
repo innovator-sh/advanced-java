@@ -13,7 +13,6 @@ public class Jframe extends JFrame {
         JPasswordField p1 = new JPasswordField(10);
         p1.setEchoChar('*');
         Button b1 = new Button("Submit");
-        
 
         co.add(l1); co.add(t1);
         co.add(l2); co.add(p1);

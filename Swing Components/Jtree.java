@@ -25,6 +25,14 @@ public class Jtree extends JApplet {
 
         JTree t = new JTree(top);
 
+        /* 
+         * Constructors:
+         * JTree(HashTable ht)
+         * JTree(Object obj[])
+         * JTree(TreeNode tn)
+         * JTree(Vector v)
+        */
+
         int vsb = ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS;
         int hsb = ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS;
 
