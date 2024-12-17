@@ -1,11 +1,11 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class japplet extends JApplet {
+public class Japplet extends JApplet {
     public void init() {
 
         Container co = getContentPane();
-        co.setLayout(new FlowLayout();
+        co.setLayout(new FlowLayout());
 
         JLabel l1 = new JLabel("Enter your name: ");
         JTextField b1 = new JTextField("innovator.sh", 10);
