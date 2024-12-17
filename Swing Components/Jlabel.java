@@ -9,6 +9,12 @@ public class Jlabel extends JApplet {
 
         JLabel l1 = new JLabel("hi chat, innovator.sh this side!");
 
+        /* Constructor:
+         * JLabel(String str)
+         * JLabel(Icon i)
+         * JLabel(String str, Icon i, int align)
+        */
+
         co.add(l1);
 
     }

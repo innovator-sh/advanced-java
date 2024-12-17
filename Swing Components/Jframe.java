@@ -8,9 +8,15 @@ public class Jframe extends JFrame {
         co.setLayout(new FlowLayout(FlowLayout.LEFT));
 
         JLabel l1 = new JLabel("Enter your name: ");
-        JTextField b1 = new JTextField("innovator.sh", 20);
+        JTextField t1 = new JTextField("innovator.sh", 10);
+        JLabel l2 = new JLabel("Enter password: ");
+        JPasswordField p1 = new JPasswordField(10);
+        p1.setEchoChar('*');
+        Button b1 = new Button("Submit");
+        
 
-        co.add(l1);
+        co.add(l1); co.add(t1);
+        co.add(l2); co.add(p1);
         co.add(b1);
 
     }

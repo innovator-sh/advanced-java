@@ -5,18 +5,24 @@ public class Japplet extends JApplet {
     public void init() {
 
         Container co = getContentPane();
-        co.setLayout(new FlowLayout());
+        co.setLayout(new GridLayout(3, 2));
 
         JLabel l1 = new JLabel("Enter your name: ");
-        JTextField b1 = new JTextField("innovator.sh", 10);
+        JTextField t1 = new JTextField("innovator.sh", 10);
+        JLabel l2 = new JLabel("Enter password: ");
+        JPasswordField p1 = new JPasswordField(10);
+        p1.setEchoChar('*');
+        Button b1 = new Button("Submit");
+        
 
-        co.add(l1);
+        co.add(l1); co.add(t1);
+        co.add(l2); co.add(p1);
         co.add(b1);
 
     }
 }
 
 /* 
- * <applet code="japplet.class" width=300 height=300>
+ * <applet code="Japplet.class" width=300 height=300>
  * </applet>
 */

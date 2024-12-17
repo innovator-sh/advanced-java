@@ -6,6 +6,11 @@ public class imageicon extends JApplet {
         Container co = getContentPane();
 
         ImageIcon i = new ImageIcon("wave.png"); // Save the png file in the same directory as the class file created by this program.
+        
+        /* Constructor:
+         * ImageIcon(String name)
+         * ImageIcon(URL url)
+        */
 
         JLabel l = new JLabel("Wave", i, JLabel.CENTER);
 
