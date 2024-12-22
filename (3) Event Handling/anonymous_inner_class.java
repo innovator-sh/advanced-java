@@ -1,5 +1,4 @@
 import java.applet.*;
-import java.awt.*;
 import java.awt.event.*;
 
 public class anonymous_inner_class extends Applet {

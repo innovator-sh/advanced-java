@@ -1,5 +1,4 @@
 import java.applet.*;
-import java.awt.*;
 import java.awt.event.*;
 
 public class mouse_adapter extends Applet {
