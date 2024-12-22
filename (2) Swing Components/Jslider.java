@@ -21,4 +21,5 @@ public class Jslider extends JFrame {
         t.setVisible(true);
         t.setTitle("JSlider Program");
     }
+    
 }
