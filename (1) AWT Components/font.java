@@ -10,7 +10,7 @@ public class font extends Applet {
 
         Font f2 = new Font("Arial", Font.ITALIC, 20);
         g.setFont(f2);
-        g.drawString("Skibidi toilet", 20, 60);
+        g.drawString("Yapping", 20, 60);
 
         Font f3 = new Font("Courier", Font.PLAIN, 20);
         g.setFont(f3);
