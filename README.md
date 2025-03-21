@@ -1,12 +1,12 @@
 # Advanced Java Programs
 ## (Diploma-level)
 
-### # Running Applet programs
+### Running Applet programs
 Run `javac <file_name>.java`
 <br>
 Now, run `appletviewer <file_name>.java`
 
-### # Running Frame / Networking programs
+### Running Frame / Networking programs
 Run `javac <file_name>.java`
 <br>
 Now, run `java <file_name>.java`
